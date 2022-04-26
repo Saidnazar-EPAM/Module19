@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-Module19-92459EFE-1534-4EF8-B19F-9FB29D8326AF</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.3" />
+    <PackageReference Include="SendGrid" Version="9.27.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+	<PackageReference Include="Microsoft.Identity.Web" Version="1.24.0" />
+	<PackageReference Include="Microsoft.Identity.Web.UI" Version="1.24.0" />
+    <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="1.24.0" />
+  </ItemGroup>
+
+</Project>

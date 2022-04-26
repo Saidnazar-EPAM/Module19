@@ -1,0 +1,21 @@
+﻿@model List<IdentityUser>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>UserName</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (var i = 0; i < @Model.Count; i++)
+        {
+        <tr>
+            <td>@(i+1)</td>
+            <td>@Model[i].UserName</td>
+            <td>@Model[i].Email</td>
+        </tr> 
+        }
+    </tbody>
+</table>
